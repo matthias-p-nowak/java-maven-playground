@@ -6,9 +6,8 @@
     <groupId>org.matthias</groupId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <groupId>org.matthias</groupId>
+
   <artifactId>test-env</artifactId>
-  <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>test-env</name>
 </project>
