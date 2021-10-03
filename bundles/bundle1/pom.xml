@@ -12,7 +12,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <name>bundle1</name>
-    <description>Add project description here</description>
+    <description>Testing a bundle with javadoc</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -38,6 +38,7 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+            <!--
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
@@ -50,7 +51,8 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin> -->
+            <!--
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
@@ -64,21 +66,7 @@
                     </execution>
                 </executions>
             </plugin>
+            -->
         </plugins>
     </build>
-
-    <reporting>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-project-info-reports-plugin</artifactId>
-                <version>2.9</version>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-javadoc-plugin</artifactId>
-                <version>2.10.4</version>
-            </plugin>
-        </plugins>
-    </reporting>
 </project>
