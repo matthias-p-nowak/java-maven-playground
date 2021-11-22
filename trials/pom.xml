@@ -4,7 +4,7 @@
   <parent>
     <artifactId>pg-parent</artifactId>
     <groupId>org.matthias</groupId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
   </parent>
   <artifactId>trials</artifactId>
   <packaging>pom</packaging>
